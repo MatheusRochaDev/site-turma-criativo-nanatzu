@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho{
+    background-color: #5c0979;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0 ;
+}
+.cabecalho-imagem{
+    width: 8%;
+    border-radius: 5px;
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 24px;
+    padding: 0 20px;
+    font-size: 25px;
+}
+.mandamentos-juntos{
+    width: 450px;
+    border-radius: 10%;
+}
+.mandamentos-sobre{
+    background-image: linear-gradient(#5c0979,#020024);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 130px 0;
+}
+.mandamentos-div-conteudo{
+    width: 25%;
+}
+.mandamentos-sobre-titulo{
+    padding: 25px 0;
+}
+.mandamentos-texto-2{
+    padding: 15px 0px;
+}
+.mandamento-fraundrin-imagem{
+    width: 200px;
+}
+.mandamento-estarossa-imagem{
+    width: 200px;
+}
+.mandamento-drole-imagem{
+    width: 200px;
+}
+.mandamento-derrierie-imagem{
+    width: 200px;
+}
+.mandamento-galand-imagem{
+    width: 200px;
+}
+.mandamento-gloxinia-imagem{
+    width: 200px;
+}
+.mandamento-zeldris-imagem{
+    width: 200px;
+}
+.mandamento-melascula-imagem{
+    width: 200px;
+}
+.mandamento-monspiet-imagem{
+    width: 200px;
+}
+.mandamento-grayroad-imagem{
+    width: 200px;
+}
+.mandamentos-icones{
+    width: 24px;
+    padding: 0 2px;
+}
+.mandamentos-div{ 
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+}
+.mandamentos-titulo{
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+    background: #5c0979;
+    background: radial-gradient(circle, #5c0979 0%, #020024 100%);}
+
+.mandamentos-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-image: linear-gradient(#020024,#5c0979);
+}
+.rodape{
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+    background: #5c0979;
+    background: radial-gradient(circle, #5c0979 0%, #020024 100%);
+}
+.rodape-imagem{
+    height: 60px;
+    padding: 25px 0;
+}
