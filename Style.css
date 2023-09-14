@@ -42,36 +42,41 @@
 .mandamentos-texto-2{
     padding: 15px 0px;
 }
-.mandamento-fraundrin-imagem{
+.mandamento-imagem{
     width: 200px;
-}
-.mandamento-estarossa-imagem{
-    width: 200px;
-}
-.mandamento-drole-imagem{
-    width: 200px;
-}
-.mandamento-derrierie-imagem{
-    width: 200px;
-}
-.mandamento-galand-imagem{
-    width: 200px;
-}
-.mandamento-gloxinia-imagem{
-    width: 200px;
-}
-.mandamento-zeldris-imagem{
-    width: 200px;
-}
-.mandamento-melascula-imagem{
-    width: 200px;
-}
-.mandamento-monspiet-imagem{
-    width: 200px;
-}
-.mandamento-grayroad-imagem{
-    width: 200px;
-}
+    border: 4px solid;
+    border-radius: 10px;
+    animation: rainbow 5s infinite linear;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.3), transparent);
+  }
+  
+  @keyframes rainbow {
+    0% {
+      border-color: purple;
+      background-position: 0 0;
+    }
+    20% {
+      border-color: black;
+      background-position: 100% 0;
+    }
+    40% {
+      border-color: white;
+      background-position: 0 100%;
+    }
+    60% {
+      border-color: pink;
+      background-position: 100% 100%;
+    }
+    80% {
+      border-color: darkblue;
+      background-position: 0 0;
+    }
+    100% {
+      border-color: purple;
+      background-position: 100% 0;
+    }
+  }
+
 .mandamentos-icones{
     width: 24px;
     padding: 0 2px;
